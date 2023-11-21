@@ -153,7 +153,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="equalization.cpp" />
     <ClCompile Include="gaussianc.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="image.cpp" />
@@ -161,11 +160,8 @@
     <ClCompile Include="sobelEdge.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="equalization.h" />
     <ClInclude Include="gaussianConv.h" />
-    <ClInclude Include="HSV.h" />
     <ClInclude Include="image.h" />
-    <ClInclude Include="processingCPU.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

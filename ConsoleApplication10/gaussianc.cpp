@@ -2,10 +2,6 @@
 #include "image.h"
 #include<algorithm>
 #include<iostream>
-
-
-
-
 gaussianConv::gaussianConv()
 {
 	kernel = { { 1,2,1} ,{2,4,2},{1,2,1} };
@@ -51,5 +47,5 @@ void gaussianConv::applyGaussian(Image & in)
 
 	}
 	out.save("gaussianFilter.png");
-	std::cout << "end Processing";
+	std::cout << "Gaussian Filter was applicated with success !" ;
 }

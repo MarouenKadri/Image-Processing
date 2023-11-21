@@ -3,9 +3,6 @@
 #include<algorithm>
 #include<cmath>
 #include<iostream>
-
-
-
 void sobel::applySobel(Image & inputImage)
 {   
 	
@@ -44,5 +41,4 @@ void sobel::applySobel(Image & inputImage)
 	}
 	out.save("sobleFilter.png"); 
 	std::cout<< "Sobel filter applicated with success!"; 
-		 
 }

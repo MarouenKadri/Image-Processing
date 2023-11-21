@@ -6,10 +6,8 @@
 #include<algorithm>      
 #include "sobelEdge.h"
 #include "gaussianConv.h"
-#include "equalization.h"
 int main()
 {
-
 	sobel filter;
 
 	Image input;
@@ -17,7 +15,8 @@ int main()
 	//Image output(input._width, input._height, input._channels);
 	//filter.applySobel(input);
 	gaussianConv gaussian; 
-	gaussian.applyGaussian(input); 
+	sobel sobleFilter; 
+	sobleFilter.applySobel(input); 
+	gaussian.applyGaussian(input);  
 	return 0; 
-
 }

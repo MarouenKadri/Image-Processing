@@ -23,7 +23,6 @@ private :
 	std::vector<std::vector<int> >kernelSobelx;
 	std::vector<std::vector<int> >kernelSobely;
 
-
 };
 
 #endif // Sobel Filter for edge detection

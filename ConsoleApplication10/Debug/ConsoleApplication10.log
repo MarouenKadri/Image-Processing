@@ -1,2 +1,8 @@
 ﻿  gaussianc.cpp
-  ConsoleApplication10.vcxproj -> C:\Users\marouen\source\repos\ConsoleApplication10\Debug\ConsoleApplication10.exe
+  main.cpp
+  image.cpp
+  sobelEdge.cpp
+  sobelEdge.h
+  Generating Code...
+Debug\sobelEdge.obj : warning LNK4042: object specified more than once; extras ignored
+  ConsoleApplication10.vcxproj -> C:\Users\marouen\Desktop\ConsoleApplication10\Debug\ConsoleApplication10.exe
